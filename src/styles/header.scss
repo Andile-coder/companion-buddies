@@ -1,0 +1,18 @@
+.header_main {
+  display: flex;
+  &_left {
+    flex: 1;
+  }
+  &_right {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1em;
+    color: rgba(62, 60, 60, 0.9);
+  }
+}
