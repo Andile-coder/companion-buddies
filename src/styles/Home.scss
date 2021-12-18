@@ -2,10 +2,13 @@
 .home_main {
   .home_container {
     &_image {
+      margin-bottom: 100px;
+
       .slide_image {
         display: flex;
         align-items: center;
         justify-content: center;
+
         .slide_caption {
           color: rgb(221, 203, 203);
           font-size: xx-large;
@@ -17,8 +20,8 @@
             font-family: proxima-nova;
             text-transform: uppercase;
             letter-spacing: 1.5px;
-            background-color: rgba(247, 209, 38, 0.84);
-            border-radius: 300px;
+            // background-color: rgba(247, 209, 38, 0.84);
+            border-radius: 100px;
             font-size: 20px;
             border: none;
           }
@@ -40,11 +43,28 @@
     &_content {
       display: flex;
       margin: 20px 10px 0 50px;
+
       &_left {
         flex: 1;
+        background-color: #f7f7f7;
+        &_services {
+          h1 {
+            font-family: adobe-garamond-pro;
+            text-transform: capitalize;
+          }
+          ul {
+            display: flex;
+            list-style: none;
+            flex-flow: row wrap;
+            li {
+            }
+          }
+        }
       }
       &_right {
         flex: 1;
+        padding-left: 10px;
+        background-color: #f7f7f7;
         &-box {
           font-family: adobe-garamond-pro;
           font-weight: 400px;
