@@ -10,7 +10,7 @@
         justify-content: center;
 
         .slide_caption {
-          color: rgb(221, 203, 203);
+          color: rgb(46, 41, 41);
           font-size: xx-large;
           button {
             cursor: pointer;
@@ -20,8 +20,10 @@
             font-family: proxima-nova;
             text-transform: uppercase;
             letter-spacing: 1.5px;
-            // background-color: rgba(247, 209, 38, 0.84);
-            border-radius: 100px;
+            background-color: rgba(247, 209, 38, 0.84);
+            height: 50px;
+            width: 150px;
+            border-radius: 10px;
             font-size: 20px;
             border: none;
           }

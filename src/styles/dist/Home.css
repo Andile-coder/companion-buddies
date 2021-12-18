@@ -16,7 +16,7 @@
 }
 
 .home_main .home_container_image .slide_image .slide_caption {
-  color: #ddcbcb;
+  color: #2e2929;
   font-size: xx-large;
 }
 
@@ -28,7 +28,10 @@
   font-family: proxima-nova;
   text-transform: uppercase;
   letter-spacing: 1.5px;
-  border-radius: 100px;
+  background-color: rgba(247, 209, 38, 0.84);
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
   font-size: 20px;
   border: none;
 }
